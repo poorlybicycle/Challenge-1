@@ -1,13 +1,18 @@
+/*The asterisk in line 1 is a universal selector. This means that the box-sizing,
+padding, and margins above will uniformly affect all elements.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This changes the color of the body background to this grayish color.*/
 body {
     background-color: #d9dcd6;
 }
 
+/*This makes the header dark blue and the text white. The font is given here,
+as well*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +20,19 @@ body {
     color: #ffffff;
 }
 
+/*The header is displayed as a block and its font size is set to 48 pixels.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*This changes the header font color.*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*This places the unordered list on lines 16-22 in the HTML on the right side of the page.
+It also sets the font and font size of these elements.*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +41,8 @@ body {
     font-size: 20px;
 }
 
+/*This makes it so  that there are no bullet points for this unordered list,
+allowing the items to appear next to each other.*/
 .header div ul {
     list-style-type: none;
 }
@@ -50,6 +61,7 @@ p {
     font-size: 16px;
 }
 
+/*This adds the large meeting photo on the top of the website.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +71,7 @@ p {
     background-position: center;
 }
 
+/*This makes the image float on the left side and aligns it with the others.*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -66,6 +79,7 @@ p {
     max-height: fit-content;
 }
 
+/*This makes the image float on the right side and aligns it with the others.*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -190,6 +204,7 @@ p {
     font-size: 36px;
 }
 
+/*This makes the footer appear centered and gives it a font.*/
 .footer {
     padding: 30px;
     clear: both;
